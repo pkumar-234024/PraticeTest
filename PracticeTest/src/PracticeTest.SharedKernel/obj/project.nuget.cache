@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SN4dUqcT7UqEeNFi6tka09TdCpr/wEj1HBl1qGc8VG+xXLOD/RQBWE13xs0Q5a8//Udoroto+r0gtUdx5Uv7rg==",
+  "success": true,
+  "projectFilePath": "D:\\F\\mine\\ReactProject\\GitFolder\\PraticeTest\\PracticeTest\\src\\PracticeTest.SharedKernel\\PracticeTest.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\praveen\\.nuget\\packages\\ardalis.specification\\6.0.1\\ardalis.specification.6.0.1.nupkg.sha512",
+    "C:\\Users\\praveen\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\praveen\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

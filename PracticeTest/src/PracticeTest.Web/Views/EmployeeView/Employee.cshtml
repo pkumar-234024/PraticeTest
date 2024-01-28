@@ -1,0 +1,68 @@
+﻿
+@using PracticeTest.Web.ViewModels;
+@model EmployeeViewModel;
+
+    <style >
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<div class="row">
+
+
+        <h2>Employee Details</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="EmployeeView" asp-action="AddOrEditEmployee">Employee</a>
+    <table>
+        <tr>
+            <th>Employee Code</th>
+            <th>Employee Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Designation</th>
+            <th>Basic Salary</th>
+            <th>DearnessAllowance</th>
+            <th>ConveyanceAllowance</th>
+            <th>HouseRentAllowance</th>
+            <th>PT</th>
+            <th>TotalSalary</th>
+            <th>Action</th>
+
+        </tr>
+        @foreach (var employee in Model._employeeViewInheriteds)
+        {
+            <tr>
+                <td>@employee.EmployeeCode</td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.DateOfBirth.ToShortDateString()</td>
+                <td>@(employee.Gender == true? "Male" : "Female")</td>
+                <td>@employee.Department</td>
+                <td>@employee.Designation</td>
+                <td>@employee.BasicSalary</td>
+                <td>@employee.DearnessAllowance</td>
+                <td>@employee.ConveyanceAllowance</td>
+                <td>@employee.HouseRentAllowance</td>
+                <td>@employee.PT</td>
+                <td>@employee.TotalSalary</td>
+                <td>
+                    <a class="btn btn-success" href="@Url.Action("AddOrEditEmployee", "EmployeeView", new { id = employee.Id })">Edit</a> |
+                    <a class=" btn btn-danger" href="@Url.Action("EmployeeDelete", "EmployeeView", new { id = employee.Id })" onclick="return confirm('Are you sure you want to delete this employee?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+
+</div>

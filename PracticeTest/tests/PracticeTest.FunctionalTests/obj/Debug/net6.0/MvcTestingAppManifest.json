@@ -1,0 +1,7 @@
+{
+  "PracticeTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\F\\mine\\ReactProject\\GitFolder\\PracticeTest\\src\\PracticeTest.Core",
+  "PracticeTest.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\F\\mine\\ReactProject\\GitFolder\\PracticeTest\\src\\PracticeTest.Infrastructure",
+  "PracticeTest.SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\F\\mine\\ReactProject\\GitFolder\\PracticeTest\\src\\PracticeTest.SharedKernel",
+  "PracticeTest.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\F\\mine\\ReactProject\\GitFolder\\PracticeTest\\tests\\PracticeTest.UnitTests",
+  "PracticeTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\F\\mine\\ReactProject\\GitFolder\\PracticeTest\\src\\PracticeTest.Web"
+}
